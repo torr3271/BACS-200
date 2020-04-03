@@ -42,7 +42,7 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0 rem;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-    margin: 5rem 0;
+    margin: 2.5rem 0;
     /* Space out the Bootstrap <hr> more */
 }
 
