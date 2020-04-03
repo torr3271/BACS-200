@@ -1,10 +1,64 @@
+* {
+    border: 10px black;
+    margin: 5px;
+}
+
+body {
+    border: solid black;
+    background-color: black;
+    margin: 50px;
+
+}
+
+header {
+    font-size: 20pt;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    border: solid 3px black;
+    background-color: whitesmoke;
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+    margin: 50px;
+}
 
 h1 {
-    color: red;
+    font-size: 50pt;
+    font-family: "Courier New", Courier, monospace;
     text-align: center;
-    background-color: beige
 }
 
 h2 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+li {
+    font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+    color: beige;
     text-align: center;
+    border: solid 3px black;
+    background-color: black;
+}
+
+main {
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+    background-color: lightgoldenrodyellow;
+    margin: 50px;
+}
+
+aside {
+    position: absolute;
+    right: 130px;
+    width: 400px;
+    font-size: 13pt;
+    font-family: "Courier New", Courier, monospace;
+
+    list-style: circle;
+    border: solid 3px black;
+    background-color: whitesmoke;
 }
