@@ -101,6 +101,10 @@ h2 {
     color: #4060A0;
 }
 
-nav {
-    background-color: #4060A0;
+.navbar {
+    background-color: #4060A0 !important;
+}
+
+.navbar .navbar-nav li a {
+    color: whitesmoke !important;
 }
