@@ -94,3 +94,13 @@ body {
         margin-top: 7rem;
     }
 }
+
+/* ADDITIONAL TWEAKS
+-------------------------------------------------- */
+h2 {
+    color: #4060A0;
+}
+
+nav {
+    background-color: #4060A0;
+}
