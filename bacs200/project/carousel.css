@@ -110,6 +110,7 @@ h2 {
 }
 
 /* Fancy trick - navbar item background color turns black on hover */
-.navbar .navbar-nav li a:hover {
+.navbar .navbar-nav .nav-item a:hover {
     background-color: black;
+    color: white !important;
 }
