@@ -116,5 +116,13 @@ h2 {
 }
 
 .card-title {
-    color: #4060A0
+    color: #4060A0 !important;
+}
+
+.text a {
+    color: white !important;
+}
+
+.col-lg-4 {
+    color: #4060A0 !important;
 }
