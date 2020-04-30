@@ -128,10 +128,10 @@ h2 {
 }
 
 .form-group .btn {
-    background-color: #4060A0;
+    background-color: #4060A0 !important;
 }
 
 .form-group .btn:hover {
-    background-color: whitesmoke;
-    color: #4060A0;
+    background-color: whitesmoke !important;
+    color: #4060A0 !important;
 }
