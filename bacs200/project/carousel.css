@@ -119,8 +119,9 @@ h2 {
     color: #4060A0 !important;
 }
 
-.text a {
-    color: whitesmoke;
+.text a,
+.info-wrap {
+    color: whitesmoke !important;
 }
 
 .row .col-lg-4 div {
