@@ -120,9 +120,18 @@ h2 {
 }
 
 .text a {
-    color: white !important;
+    color: whitesmoke;
 }
 
-.col-lg-4 {
-    color: #4060A0 !important;
+.row .col-lg-4 div {
+    background-color: #4060A0 !important;
+}
+
+.form-group .btn {
+    background-color: #4060A0;
+}
+
+.form-group .btn:hover {
+    background-color: whitesmoke;
+    color: #4060A0;
 }
