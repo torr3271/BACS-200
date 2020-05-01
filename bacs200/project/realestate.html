@@ -29,7 +29,7 @@
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -44,6 +44,33 @@
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .image-container {
+            background-image: url(images/LA-County.jpg);
+            background-size: cover;
+            position: relative;
+            height: 300px;
+        }
+
+        .text {
+            background-color: white;
+            color: black;
+            font-size: 5vw;
+            font-weight: bold;
+            margin: 0 auto;
+            padding: 10px;
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            mix-blend-mode: screen;
         }
 
     </style>
@@ -94,11 +121,23 @@
         </nav>
     </header>
 
-    <!-- Work Row -->
-    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+    <div class="row featurette">
+        <div class="col-md" style="text-align-last: center">
+            <h2 class="featurette-heading">Finding the perfect home for you and your family does not have to be stressful. <span class="text-muted">Leave it to us to find the right one for you.</span></h2>
+        </div>
+    </div>
+    <hr>
 
-        <div class="w3-quarter">
-            <h2>Our Work</h2>
+    <div class="image-container">
+        <div class="text">HERE FOR YOU</div>
+    </div>
+
+    <hr>
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-grey" id="work">
+
+        <div class="w3-quarter" style="font-style: oblique">
+            <h2><strong>Our Work</strong></h2>
             <p>We have helped dozens of families find their forever homes, and have even flipped houses ourselves. Take a look at some of our happy clients who have found a new place to call home.</p>
         </div>
 
@@ -106,12 +145,9 @@
             <div class="w3-card w3-white">
                 <img src="images/handingKeys.jpg" alt="keys" style="width:100%">
                 <div class="w3-container">
-                    <h3>Customer 1</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                    <h3><strong>Gloria</strong></h3>
+                    <p>We were fortunate enough to help Gloria find the home she wanted.</p>
+                    <p>She upgraded into a more spacious home for her and her family in the Los Angeles Area.</p>
                 </div>
             </div>
         </div>
@@ -120,31 +156,24 @@
             <div class="w3-card w3-white">
                 <img src="images/FelixFlip.jpg" alt="flip" style="width:100%">
                 <div class="w3-container">
-                    <h3>Customer 2</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                    <h3><strong>Flipping a house</strong></h3>
+                    <p>Felix Torres has experience from selling to buying, but he also knows his way around the framework.</p>
                 </div>
             </div>
         </div>
 
         <div class="w3-quarter">
             <div class="w3-card w3-white">
-                <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                <img src="images/Resized_20190727_131009.jpeg" alt="84th" style="width:100%">
                 <div class="w3-container">
-                    <h3>Customer 3</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                    <h3><strong>Our current project</strong></h3>
+                    <p>This is a cozy home located in the LA area with much potential.</p>
+                    <p>We are in the process of selling it and making yet another family happy.</p>
                 </div>
             </div>
         </div>
-
     </div>
+    <hr>
     <!-- FOOTER -->
     <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>

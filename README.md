@@ -15,4 +15,4 @@ My five tricks:
 - people cards for my family/"the team"
 - contact form
 - search bar with a cute button next to it
-- y
+- cutout text with LA county in the background
