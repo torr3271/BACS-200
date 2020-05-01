@@ -1,11 +1,15 @@
-h1 {
-    color: purple;
+h1 b {
+    color: rebeccapurple;
+}
+
+li a {
+    color: black
 }
 
 li {
-    color: pink
+    color: purple
 }
 
-a {
+p a {
     color: mediumpurple
 }
