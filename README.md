@@ -14,5 +14,5 @@ My five tricks:
 - a responsive top nav
 - people cards for my family/"the team"
 - contact form
-- x
+- search bar with a cute button next to it
 - y
