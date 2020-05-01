@@ -7,3 +7,12 @@ finally create a website to keep up with the ever-evolving technological times. 
 ones who are currently running the office - for input regarding the information I need and the physical appearance of the website. In regards to the coding itself, I will need to become more familiar with Bootstrap and integrating it into my project.
 
 The goal for the first tab, tax services, is to include some sort of a checklist for the documents needed when filing taxes, and other important information. The second tab, real estate, will include information about financing, areas of interest, current houses we have listed, and perhaps several testimonials. The tab for notary republic/CLSA will also include important information about how Union Hispana can help them as well as the tab for LiveScan.
+
+Update: I have also added a sixth page, a contact page
+
+My five tricks:
+- a responsive top nav
+- people cards for my family/"the team"
+- contact form
+- x
+- y
