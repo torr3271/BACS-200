@@ -1,13 +1,13 @@
 h1 b {
-    color: rebeccapurple;
+    color: rebeccapurple !important;
 }
 
 li a {
-    color: black
+    color: black !important;
 }
 
 li {
-    color: purple
+    color: purple !important;
 }
 
 p a {
