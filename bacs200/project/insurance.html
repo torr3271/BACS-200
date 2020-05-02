@@ -22,6 +22,12 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <title>Union Hispana</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
@@ -48,6 +54,18 @@
 
         h3 {
             color: #4060A0;
+        }
+
+        /* Bottom right text */
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: gray;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
         }
 
     </style>
@@ -117,5 +135,67 @@
                 </div><!-- /.col-lg-4 -->
             </div>
         </div>
+        <hr style="padding-top: 20px">
+        <h2 class="w3-center">Why is it important to be covered?</h2>
+        <div class="w3-content" style="max-width:800px;position:relative">
+
+            <img class="mySlides w3-animate-opacity" src="images/caraccident.jpg" style="width:100%">
+            <img class="mySlides w3-animate-opacity" src="images/planahead.jpg" style="width:100%">
+            <img class="mySlides w3-animate-opacity" src="images/financialsecurity.jpg" style="width:100%">
+
+            <a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;left:0;" onclick="plusDivs(-1)">&#10094;</a>
+            <a class="w3-button w3-circle w3-hover-dark-grey" style="position:absolute;top:45%;right:0;" onclick="plusDivs(+1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div class="w3-row w3-border">
+            <div class="w3-third w3-container w3-blue">
+                <h5>Accidents happen.</h5>
+                <p>It's important to be prepared if the worst happens. There's nothing worse than being in a situation with no one behind you.</p>
+            </div>
+            <div class="w3-third w3-container">
+                <h5>Plan ahead.</h5>
+                <p>Being ready now saves you the hassle of worrying about it later.</p>
+            </div>
+            <div class="w3-third w3-container w3-blue">
+                <h5>Financial security.</h5>
+                <p>If the worst does happen, you will have the peace of mind of not being hit with a large financial burden.</p>
+            </div>
+        </div>
+        <br>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+    <!-- Script for Slideshow -->
+    <script>
+        var slideIndex = 1;
+
+        function plusDivs(n) {
+            slideIndex = slideIndex + n;
+            showDivs(slideIndex);
+        }
+
+        function showDivs(n) {
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+        showDivs(1);
+
+    </script>
+
 </body>
